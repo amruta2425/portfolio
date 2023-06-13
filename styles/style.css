@@ -25,6 +25,11 @@ body {
 .header__logo {
   width: 140px;
 }
+@media only screen and (max-width: 576px) {
+  .header__logo {
+    width: 50px;
+  }
+}
 
 .navbar a {
   font-size: 20px;
@@ -50,10 +55,36 @@ body {
   font-size: 56px;
   font-weight: 700;
 }
+@media only screen and (min-width: 1201px) {
+  .home__content__heading1 {
+    font-size: 60px;
+    margin-top: 200px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .home__content__heading1 {
+    margin-top: 200px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .home__content__heading1 {
+    margin-top: 200px;
+  }
+}
 .home__content__heading3 {
   font-size: 32px;
   font-weight: 700;
   color: #00abf0;
+}
+@media only screen and (min-width: 1201px) {
+  .home__content__heading3 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .home__content__heading3 {
+    font-size: 25px;
+  }
 }
 
 /*--------------About Me---------------*/
@@ -61,6 +92,26 @@ body {
   padding: 80px 0;
   background-color: #081b29;
   border-top: 60px solid #ededed;
+}
+@media only screen and (min-width: 1201px) {
+  .about {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px 40px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .about {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px 40px;
+  }
 }
 
 .row {
@@ -98,7 +149,8 @@ body {
 .sub-title {
   font-size: 60px;
   font-weight: 600;
-  color: #081b29;
+  color: white;
+  padding: 60px 50px;
 }
 
 /*------------------------------Skills----------------------------------*/
@@ -118,6 +170,33 @@ body {
   padding: 50px 40px;
   text-align: left;
   color: #081b29;
+}
+@media only screen and (max-width: 576px) {
+  .skills__heading {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .skills__heading {
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .skills__heading {
+    font-size: 32px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .skills__heading {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
 }
 .skills__list {
   display: flex;
@@ -141,6 +220,28 @@ body {
   padding-right: 30px;
   padding-left: 30px;
   color: #081b29;
+}
+@media only screen and (max-width: 576px) {
+  .skills__list__item__text {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .skills__list__item__text {
+    font-size: 22px;
+    margin-top: 18px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .skills__list__item__text {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .skills__list__item__text {
+    font-size: 25px;
+  }
 }
 
 /*-------------------------Projects-----------------------*/
@@ -215,6 +316,12 @@ body {
   align-items: center;
   color: #081b29;
 }
+@media only screen and (max-width: 576px) {
+  .footer {
+    max-height: 50px;
+    padding: 10px 5%;
+  }
+}
 .footer__heading {
   padding: 10px 30%;
   color: #081b29;
@@ -227,6 +334,21 @@ body {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+@media only screen and (max-width: 576px) {
+  .footer__email__link {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .footer__email__link {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .footer__email__link {
+    font-size: 16px;
+  }
 }
 .footer__links__item {
   color: #081b29;

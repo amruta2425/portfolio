@@ -2,7 +2,7 @@
 
 This portfolio covers:
 
-Introduction
-Technical skills
-Projects Undertaken
-Contact details
+-Introduction
+-Technical skills
+-Projects Undertaken
+-Contact details

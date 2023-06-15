@@ -13,17 +13,17 @@ body{
     background:#081b29;
     color: #ededed;
 }
+
 .header{
+
 position:fixed;
-top:0;
-left:0;
 width:100%;
 padding: 20px 10%;
 background-color: white;
 display:flex;
 justify-content:space-between;
 align-items: center;
-z-index:100 ;
+
 
 &__logo{
     width: 140px;
@@ -32,6 +32,7 @@ z-index:100 ;
         width:auto;
     }
 }
+
 }
 
     
@@ -108,16 +109,6 @@ z-index:100 ;
     border-top:50px solid #ededed;
     border-width: 100%;
 
-
-    /*@include mixins.desktop {
-		flex-direction: row;
-		justify-content: space-around;
-		margin-top: 20px;
-		margin-left: 50px;
-		margin-right: 50px;
-		padding: 20px 40px;	
-
-	}	*/
 
 	@include mixins.laptop {
 		flex-direction: row;
@@ -379,7 +370,6 @@ text-align: justify;
 /*----------------------Contact Me/Footer------------------------*/
 
 .footer{
-
 
 width:100%;
 height: 200px;
